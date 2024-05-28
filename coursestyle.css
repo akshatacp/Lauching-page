@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background: url(task1s.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+}
+
+.landing-page {
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    margin-top: 60px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 20px;
+    background-color:palevioletred;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin: 0 0 10px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 0 0 20px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    
+}
+
+.about, .features, .enroll, .contact {
+    padding: 20px;
+    background: #fff;
+    margin: 20px 0;
+    background-color:palevioletred;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    background-color: aqua;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #555;
+}
